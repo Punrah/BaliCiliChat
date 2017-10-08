@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1034418071147",
+    "firebase_url": "https://balicilichat.firebaseio.com",
+    "project_id": "balicilichat",
+    "storage_bucket": "balicilichat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034418071147:android:24c2c0f8c88e44fc",
+        "android_client_info": {
+          "package_name": "BaliCiliChat.BaliCiliChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034418071147-a5u47ulr496gpl077kucn8g0m4j63kk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgxJcbuE-Q8D5V_NAJC4BYFMrqSNLHY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034418071147:android:80fb1ab91aa36d9d",
+        "android_client_info": {
+          "package_name": "com.example.puniaraharja.balicilichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034418071147-8pj0198fssshugphlj0hredv34pjbac8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.puniaraharja.balicilichat",
+            "certificate_hash": "8185b6a3624f696b8958d69fa557a51de12aceb3"
+          }
+        },
+        {
+          "client_id": "1034418071147-a5u47ulr496gpl077kucn8g0m4j63kk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKgxJcbuE-Q8D5V_NAJC4BYFMrqSNLHY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034418071147-a5u47ulr496gpl077kucn8g0m4j63kk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
