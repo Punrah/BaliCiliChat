@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#fffdfa</color>
-    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryDark">#494949</color>
     <color name="colorAccent">#4e4e4e</color>
     <color name="balicili">#ff9c3a</color>
+
 
     <color name="black_opac">#c4cecece</color>
     <color name="white">#ffffff</color>
     <color name="black">#131313</color>
-    <color name="softgray">#e0e0e0</color>
+    <color name="softgray">#cccccc</color>
+    <color name="gray">#b6b6b6</color>
     <color name="yellow">#ffff00</color>
     <color name="red">#ffff00</color>
+    <color name="chat_background">#fff5e8</color>
+    <color name="blue">#399cff</color>
+    <color name="orange">#ffa639</color>
+    <color name="my_time">#8f8f8f</color>
+    <color name="my_bubble">#ffcc98</color>
+    <color name="my_reply_name">#838383</color>
+    <color name="sender_time">#838383</color>
+    <color name="sender_bubble">#ffffff</color>
+    <color name="sender_name">#838383</color>
+    <color name="sender_reply_name">#838383</color>
+    <color name="link">#005cb7</color>
+    <color name="balicili2">#ffc58b</color>
+    <color name="mycolor">#ffac8b</color>
+    <color name="chat">#131313</color>
 
 </resources>

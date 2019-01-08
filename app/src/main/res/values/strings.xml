@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Bali Chili Chat</string>
 
+    <string-array name="spinnerChatItems">
+        <item>Template</item>
+        <item>Send Image</item>
+    </string-array>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -258,7 +262,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="balicili">#ff9c3a</string>
+    <string name="softgray">#cccccc</string>
     <string-array name="category">
         <item>Category 1</item>
         <item>Category 2</item>
@@ -267,4 +272,11 @@
         <item>Category 5</item>
         <item>Category 6</item>
     </string-array>
+    <string name="web_client_id">1034418071147-a5u47ulr496gpl077kucn8g0m4j63kk5.apps.googleusercontent.com</string>
+
+    <string name="loading">Loading…</string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
 </resources>

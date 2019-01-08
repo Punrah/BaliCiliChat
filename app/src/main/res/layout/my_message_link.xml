@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <LinearLayout
+            android:elevation="1dp"
+   android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+    android:id="@+id/bubble"
+    android:paddingTop="3dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+            android:paddingBottom="3dp"
+    android:background="@drawable/rounded_corner"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/link"
+                android:padding="5dp"
+                android:textColor="@color/link"
+                android:text="link"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="end"
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anhartingknnjnj"
+        android:textColor="@color/chat" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:layout_gravity="start"
+                android:text="Anknnjnj"
+                android:textColor="@color/my_time"/>
+
+</LinearLayout>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+

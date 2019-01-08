@@ -148,11 +148,11 @@ public class RegisterActivity extends AppCompatActivity {
                             Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser firebaseUser = mAuth.getCurrentUser();
                             User user = new User();
-                            user.id_customer=firebaseUser.getUid();
+                            user.id =firebaseUser.getUid();
                             user.email=firebaseUser.getEmail();
                             user.name=inputFullName.getText().toString().trim();
-                            user.phone=inputPhone.getText().toString().trim();
-                            mDatabase.child("users").child(user.id_customer).setValue(user);
+                            user.image =inputPhone.getText().toString().trim();
+                            mDatabase.child("users").child(user.id).setValue(user);
                             Intent intent = new Intent(RegisterActivity.this,
                                     LoginActivity.class);
                             startActivity(intent);

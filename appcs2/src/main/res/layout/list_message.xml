@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sender_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user_pratikshya" />
+
+        <ImageView
+            android:layout_toRightOf="@id/sender_image"
+            android:id="@+id/sender_bubble"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="-7dp"
+            android:src="@drawable/arrow_bg2" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/my_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/user_pacific" />
+
+        <ImageView
+            android:id="@+id/my_bubble"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_toLeftOf="@id/my_image"
+            android:src="@drawable/arrow_bg1" />
+
+        <LinearLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/sender_bubble"
+            android:background="@drawable/rounded_corner"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anhartingknnjnj"
+                android:textColor="#000" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:layout_gravity="start"
+                android:text="Anhartingknnjnj"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+

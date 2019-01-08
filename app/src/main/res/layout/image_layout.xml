@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:src="@drawable/op"/>
+
+    <EditText
+        android:background="@color/black_opac"
+        android:padding="10dp"
+        android:id="@+id/captions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="Add a captions"
+        android:textSize="24dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/captions"
+        android:layout_marginBottom="-30dp"
+        android:id="@+id/send"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/send_image"
+        />
+
+
+
+</RelativeLayout>

@@ -12,18 +12,20 @@ import android.provider.Settings.Secure;
 public class User implements Parcelable {
     public  String name;
     public  String email;
-    public  String phone;
-    public  String id_customer;
+    public  String image;
+    public  String id;
     public  String password;
     public String deviceId;
+    public String status;
 
     public User()
     {
         name="";
         email ="";
-        phone="";
-        id_customer ="";
+        image ="";
+        id ="";
         password="";
+        status="";
 
     }
 
@@ -43,8 +45,9 @@ public class User implements Parcelable {
 
         dest.writeString(name);
         dest.writeString(email);
-        dest.writeString(phone);
-        dest.writeString(id_customer);
+        dest.writeString(image);
+        dest.writeString(id);
+        dest.writeString(status);
 
     }
     // Method to recreate a Question from a Parcel
@@ -66,8 +69,9 @@ public class User implements Parcelable {
 
         name=parcel.readString();
         email =parcel.readString();
-        phone=parcel.readString();
-        id_customer =parcel.readString();
+        image =parcel.readString();
+        id =parcel.readString();
+        status=parcel.readString();
     }
 
 
